@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: antiquewhite;
+}
+
+h1, h2, h3, p, button, a{
+  @apply font-roboto
+}
+
+h1{ 
+  @apply lg:text-6xl md:text-5xl sm:text-3xl text-2xl text-red-800 font-extrabold
+}
+
+h2{
+  @apply lg:text-5xl md:text-4xl sm:text-2xl text-xl font-semibold
+}
+
+h3 {
+  @apply lg:text-4xl md:text-2xl sm:text-xl text-lg font-medium
+}
+
+p{
+  @apply lg:text-lg md:text-base 
+}
